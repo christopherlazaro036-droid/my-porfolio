@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Christopher - Portfolio</title>
+
+    <!-- Font Awesome CDN para sa Social Icons & Tech Logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. ULTRA-MODERN SPLASH / INTRO SCREEN -->
+    <div id="splash-screen" class="splash">
+        <div class="splash-glow-bg"></div>
+        <div class="splash-content">
+            <span class="splash-badge"><i class="fa-solid fa-sparkles"></i> Welcome to My Portfolio</span>
+            <h1 class="splash-title">John Christopher C. <span>Lazaro</span></h1>
+            <p class="splash-subtitle">BSIT Student & Web Developer Portfolio</p>
+            
+            <button id="enter-btn" class="btn primary-btn splash-enter-btn">
+                <span>Enter Portfolio</span> <i class="fa-solid fa-arrow-right-long arrow"></i>
+            </button>
+
+            <!-- Social Media Links -->
+            <div class="splash-socials">
+                <a href="https://www.facebook.com/mortreddx" target="_blank" class="social-chip">
+                    <i class="fa-brands fa-facebook-f"></i> <span>Facebook</span> <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+                </a>
+                <a href="https://www.instagram.com/toperpitlrddx " target="_blank" class="social-chip">
+                    <i class="fa-brands fa-instagram"></i> <span>Instagram</span> <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+                </a>
+                <a href="https://github.com/christopherlazaro036-droid" target="_blank" class="social-chip">
+                    <i class="fa-brands fa-github"></i> <span>GitHub</span> <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. MODERN GLASS HEADER -->
+    <header id="main-header">
+        <div class="logo">My<span>Portfolio</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#timeline" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3. HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-tag"><i class="fa-solid fa-code"></i> Creative Web Developer</div>
+            <h3 class="hero-greeting">Hi, My name is</h3>
+            <h1 class="hero-name">John Christopher C. <span>Lazaro</span></h1>
+            <p class="hero-bio">I'm a student who dreams of earning a high income as a web developer and aspires to work in IT abroad—please support me!</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">
+                    View Projects <i class="fa-solid fa-arrow-right-long arrow"></i>
+                </a>
+                <a href="#profile" class="btn secondary-btn">View Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <span class="sub-title">GET TO KNOW ME</span>
+            <h2 class="section-title">About <span>Me</span></h2>
+        </div>
+        <div class="about-container modern-card">
+            <div class="about-text">
+                <p>I am currently studying Information Security in college. I enjoy exploring new technologies and creating practical solutions through programming</p>
+                <p>My goal is to become an excellent Web Developer and create systems that will help the community</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PROFILE SECTION -->
+    <section id="profile" class="section bg-light">
+        <div class="section-header">
+            <span class="sub-title">BACKGROUND</span>
+            <h2 class="section-title">My <span>Profile</span></h2>
+        </div>
+        <div class="profile-grid modern-card">
+            <div class="profile-img-box">
+                <div class="avatar-glow"></div>
+                <img src="toper.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="profile-details">
+                <h3>Personal Background & Details</h3>
+                <ul class="profile-info-list">
+                    <li><i class="fa-solid fa-user"></i> <span><strong>Name:</strong> John Christopher C. Lazaro</span></li>
+                    <li><i class="fa-solid fa-graduation-cap"></i> <span><strong>Course:</strong> BSIT major in Information Security (3rd Year)</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span><strong>Place:</strong> Caloocan City, Metro Manila</span></li>
+                    <li><i class="fa-solid fa-quote-left"></i> <span><strong>Motto:</strong> Continue to learn and grow with every line of code you write</span></li>
+                </ul>
+                <div class="profile-bio">
+                    <p>Experienced in developing web projects such as travel booking management systems, landing pages, and database-driven applications using HTML, CSS, JavaScript, and PHP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SKILLS & TECH STACK SECTION -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <span class="sub-title">MY EXPERTISE & TOOLS</span>
+            <h2 class="section-title">Skills & <span>Tech Stack</span></h2>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-card modern-card">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <h3>HTML5 & CSS3</h3>
+                <p>Responsive layouts, Flexbox, CSS Grid, and semantic web markup</p>
+            </div>
+            <div class="skill-card modern-card">
+                <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                <h3>JavaScript</h3>
+                <p>DOM manipulation, event handling, and interactive web features</p>
+            </div>
+            <div class="skill-card modern-card">
+                <div class="skill-icon"><i class="fa-brands fa-php"></i></div>
+                <h3>PHP & MySQL</h3>
+                <p>Backend logic, database architecture, and CRUD applications</p>
+            </div>
+        </div>
+
+        <!-- Tech Stack Tools Badges -->
+        <div class="tech-stack-container modern-card">
+            <h3>Technologies & Tools I Use</h3>
+            <div class="tech-chips-grid">
+                <div class="tech-chip"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="tech-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="tech-chip"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="tech-chip"><i class="fa-brands fa-php"></i> PHP</div>
+                <div class="tech-chip"><i class="fa-solid fa-database"></i> MySQL</div>
+                <div class="tech-chip"><i class="fa-solid fa-server"></i> XAMPP</div>
+                <div class="tech-chip"><i class="fa-solid fa-code"></i> VS Code</div>
+                <div class="tech-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+                <div class="tech-chip"><i class="fa-brands fa-github"></i> GitHub</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. EDUCATION & EXPERIENCE TIMELINE SECTION -->
+    <section id="timeline" class="section bg-light">
+        <div class="section-header">
+            <span class="sub-title">JOURNEY & EDUCATION</span>
+            <h2 class="section-title">Education & <span>Experience</span></h2>
+        </div>
+        
+        <div class="timeline-container">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-card modern-card">
+                <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">3rd Year College Student</span>
+                    <h3>BS in Information Technology (Major in Information Security)</h3>
+                    <h4>Bestlink College of the Philippines</h4>
+                    <p>Studying in BSIT major IS and Web Development concepts including Database Management, Web Applications, System Analysis and Design, and Emerging Technologies</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-card modern-card">
+                <div class="timeline-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Work Immersion</span>
+                    <h3>School Registrar Office Assistant</h3>
+                    <h4>Administrative & Document Support</h4>
+                    <p>Performed official document verification, student records management, and administrative tasks with high attention to detail and office organization</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-card modern-card">
+                <div class="timeline-icon"><i class="fa-solid fa-boxes-packing"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Practical Experience</span>
+                    <h3>E-Commerce Package Sorting & Logistics</h3>
+                    <h4>Logistics Operations</h4>
+                    <p>Gained hands-on practical workplace experience in fast-paced logistics, package verification, sorting efficiency, and teamwork</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. PROJECTS SECTION -->
+    <!-- 8. PROJECTS SECTION -->
+<section id="projects" class="section">
+    <div class="section-header">
+        <span class="sub-title">PORTFOLIO WORK</span>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+    </div>
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card modern-card">
+            <div class="project-info">
+                <div class="project-badge"><i class="fa-solid fa-plane-departure"></i> Featured</div>
+                <h3>Aero Travel Hub</h3>
+                <p>A travel booking management system featuring user login, destination browsing, and reservation dashboards built with PHP and MySQL</p>
+            </div>
+            <div class="tags">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card modern-card">
+            <div class="project-info">
+                <div class="project-badge"><i class="fa-solid fa-spray-can-sparkles"></i> E-Commerce</div>
+                <h3>Perfume Landing Page</h3>
+                <p>An elegant e-commerce product landing page designed with modern CSS glassmorphism and responsive UI layouts</p>
+            </div>
+            <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card modern-card">
+            <div class="project-info">
+                <div class="project-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Anime Showcase</div>
+                <h3>Anime Action Figure Landing Page</h3>
+                <p>A responsive product landing page built with modern CSS and layout techniques to display anime action figure collections</p>
+            </div>
+            <div class="project-footer-content" style="margin-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div class="tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+                <a href="https://topherlazaro.github.io/tac-animefigures.index.html" target="_blank" class="btn primary-btn" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                    Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- 9. CONTACT SECTION -->
+    <section id="contact" class="section bg-light">
+        <div class="section-header">
+            <span class="sub-title">CONNECT WITH ME</span>
+            <h2 class="section-title">View <span>Profile</span></h2>
+        </div>
+
+        <div class="contact-container modern-card">
+            <div class="status-badge"><i class="fa-solid fa-circle-dot"></i> Open for Part-Time & Internship Opportunities</div>
+            <h3>Let's build something together!</h3>
+            <p>I am actively seeking web development opportunities, entry-level roles, and project collaborations to expand my skills</p>
+            
+            <div class="contact-links">
+                <a href="mailto:christopherlazaro036@gmail.com" class="btn primary-btn">
+                    <i class="fa-solid fa-envelope"></i> Send an Email
+                </a>
+                <a href="https://github.com/christopherlazaro036-droid" target="_blank" class="btn secondary-btn">
+                    <i class="fa-brands fa-github"></i> Visit GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FOOTER -->
+    <footer>
+        <p>&copy; 2026 John Christopher C. Lazaro. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const enterBtn = document.getElementById('enter-btn');
+        const splashScreen = document.getElementById('splash-screen');
+
+        enterBtn.addEventListener('click', () => {
+            splashScreen.classList.add('hide-splash');
+        });
+    </script>
+</body>
+</html>
