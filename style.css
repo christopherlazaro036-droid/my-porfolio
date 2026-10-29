@@ -1,6 +1,4 @@
-/* =========================================
-   1. CORE & RESET STYLES
-   ========================================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -35,9 +33,7 @@ body {
     overflow-x: hidden;
 }
 
-/* =========================================
-   2. ULTRA-MODERN SPLASH SCREEN
-   ========================================= */
+
 @keyframes splashFadeUp {
     0% {
         opacity: 0;
@@ -181,9 +177,7 @@ body {
     pointer-events: none;
 }
 
-/* =========================================
-   3. MODERN GLASS CARD EFFECT
-   ========================================= */
+
 .modern-card {
     background: var(--card-bg);
     backdrop-filter: blur(12px);
@@ -198,9 +192,7 @@ body {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), 0 0 20px rgba(234, 179, 8, 0.1);
 }
 
-/* =========================================
-   4. NAVIGATION HEADER
-   ========================================= */
+
 header {
     position: fixed;
     top: 0;
@@ -245,9 +237,6 @@ nav a:hover, nav a.active {
     color: var(--primary);
 }
 
-/* =========================================
-   5. SECTIONS & HERO
-   ========================================= */
 .section {
     padding: 7rem 8% 4rem;
 }
@@ -274,7 +263,7 @@ nav a:hover, nav a.active {
     color: var(--primary);
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -326,7 +315,7 @@ nav a:hover, nav a.active {
     gap: 1.2rem;
 }
 
-/* Buttons */
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -375,7 +364,7 @@ nav a:hover, nav a.active {
     transform: translateY(-3px);
 }
 
-/* About Container */
+
 .about-container {
     max-width: 850px;
     margin: 0 auto;
@@ -389,7 +378,7 @@ nav a:hover, nav a.active {
     margin-bottom: 1.2rem;
 }
 
-/* Profile Grid */
+
 .profile-grid {
     display: grid;
     grid-template-columns: 280px 1fr;
@@ -458,9 +447,7 @@ nav a:hover, nav a.active {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* =========================================
-   6. SKILLS & TECH CHIPS
-   ========================================= */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -538,9 +525,7 @@ nav a:hover, nav a.active {
     transform: translateY(-3px);
 }
 
-/* =========================================
-   7. TIMELINE SECTION
-   ========================================= */
+
 .timeline-container {
     display: flex;
     flex-direction: column;
@@ -599,9 +584,6 @@ nav a:hover, nav a.active {
     font-size: 0.95rem;
 }
 
-/* =========================================
-   8. PROJECTS SECTION
-   ========================================= */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -660,9 +642,6 @@ nav a:hover, nav a.active {
     border: 1px solid rgba(234, 179, 8, 0.2);
 }
 
-/* =========================================
-   9. CONTACT SECTION
-   ========================================= */
 .contact-container {
     max-width: 800px;
     margin: 0 auto;
@@ -708,9 +687,7 @@ nav a:hover, nav a.active {
     flex-wrap: wrap;
 }
 
-/* =========================================
-   10. FOOTER
-   ========================================= */
+
 footer {
     background: rgba(9, 13, 22, 0.95);
     color: var(--text-muted);
@@ -720,7 +697,7 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
